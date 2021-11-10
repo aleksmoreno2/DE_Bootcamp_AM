@@ -28,8 +28,8 @@ Implement configuration for run an Airflow cluster in a Google Kubernetes Servic
 **Create EKS cluster**
 3. Run Terraform apply and review the planned actions. Your terminal output should indicate the plan is running and what resources will be created. Confirm the apply.
 ![image](https://user-images.githubusercontent.com/91718364/141063000-29da7fda-a0e2-4813-9a9c-eed7955bbebc.png)
-4. Upon successful application, your terminal prints the outputs and save in terraform.tfstate
-5. Review resources created in GCP console
+5. Upon successful application, your terminal prints the outputs and save in terraform.tfstate
+6. Review resources created in GCP console
 ![image](https://user-images.githubusercontent.com/91718364/141063038-e3cfbde4-960a-4af4-ae06-93718038b6bd.png)
 ![image](https://user-images.githubusercontent.com/91718364/141063046-16551bc6-64af-48ff-b821-c4dc433ae028.png)
 ![image](https://user-images.githubusercontent.com/91718364/141063052-1fd042c7-a8fd-4eb8-99bd-e91849b72167.png)
