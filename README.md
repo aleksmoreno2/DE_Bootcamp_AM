@@ -23,7 +23,7 @@ Implement configuration for run an Airflow cluster in a Google Kubernetes Servic
 **Implementation**
 1. Create and customize the Terraform files to deploy the infrastructure needed. See Terraform configuration files
 2. Initialize your Terraform workspace to install the plugins needed to manage the infrastructure
-![image](https://user-images.githubusercontent.com/91718364/141062965-3996e685-ca0b-4240-8d2e-bd96259d4f8e.png)
+![image](https://user-images.githubusercontent.com/91718364/141063919-455b0364-18f2-4b70-82ef-f933fd37d2f7.png)
 
 **Create EKS cluster**
 3. Run Terraform apply and review the planned actions. Your terminal output should indicate the plan is running and what resources will be created. Confirm the apply.
