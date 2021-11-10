@@ -54,16 +54,16 @@ Implement configuration for run an Airflow cluster in a Google Kubernetes Servic
 **Create Airflow**
 12.	Create a namespace for airflow deployment
 ![image](https://user-images.githubusercontent.com/91718364/141063336-7db75ac5-1ef5-4afc-8f02-80c655500f62.png)
-14. Add the chart repository
+13. Add the chart repository
 ![image](https://user-images.githubusercontent.com/91718364/141063355-c5b4064b-7c19-44f7-9d3f-5a83cf0d1b11.png)
-16. Update airflow-values.yaml file with the project values
+14. Update airflow-values.yaml file with the project values
 ![image](https://user-images.githubusercontent.com/91718364/141063380-8c56875d-d86d-4140-90e5-fd621b20cda1.png)
-18. Install the airflow chart from the repository
+15. Install the airflow chart from the repository
 ![image](https://user-images.githubusercontent.com/91718364/141063426-0ff31b7a-6757-430c-a92d-4968ec847065.png)
 ![image](https://user-images.githubusercontent.com/91718364/141063438-14ec2f09-2a1e-4d06-ba15-828d09f34a53.png)
-20. Verify that our pods are up and running
+16. Verify that our pods are up and running
 ![image](https://user-images.githubusercontent.com/91718364/141063449-c062a82e-4a2a-47a1-a69a-b77f3eb9db00.png)
-22.	Accessing to Airflow dashboard
+17.	Accessing to Airflow dashboard
 ![image](https://user-images.githubusercontent.com/91718364/141063473-ac88c046-66e8-4f50-9bbd-57ee3ce15abe.png)
 
 **To destroy the EKS cluster**
